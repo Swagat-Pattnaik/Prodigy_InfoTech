@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container,.aboutcontainer{
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+.navlist{
+    line-height: 2.5em;
+    list-style-type: none;
+    height:15vh;
+    width: 100%;
+    position: fixed;
+}
+.navlist li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.right-side,.left-side{
+    height:100vh;
+}
+.rightside{
+    display: flex;
+    width:80%;
+    background: skyblue;
+}
+.leftside{
+    width: 20%;
+    background: rgb(21, 20, 20);
+}
+.icons{
+    color: white;
+    margin-top: 650px;
+}
+.icons,.fa-brands{
+    font-size: 2rem;
+    color: white;
+}
+.about{
+    width: 470px;
+    position: fixed;
+}
+img{
+    height: 100vh;
+    align-items: center;
+    width: 100%;
+}
+.aboutcontainer{
+    background-color: black;
+}
+.aboutimage{
+    height: 360px;
+    width: 350px;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 20px;
+    justify-content: center;
+}
+.meimg{
+     height: 380px;
+     margin-top: 120px;
+     margin-left: 80px;
+}
+.aboutcontent{
+    justify-content: center;
+}
+.portcontainer{
+    background-color: black;
+    min-width: 100%;
+    min-height: 100vh;
+}
+.projects{
+    display:flex;
+    width: 80%;
+}
+.sideone{
+    width: 20%;
+}
+.front,.intern,.major{
+    width: 400px;
+    height: 380px;
+    background-color: blue;
+    margin: auto;
+    margin-top: 23px;
+    color: white;
+}
+.front1,.major1{
+    height: 280px;
+    margin-top: 190px;
+}
+.intern1{
+    height: 280px;
+    margin-top: 153px;
+}
+.contactcontainer{
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-color: black;
+}
+.name,#name{
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 30px;
+}
+.number,#number{
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 30px;   
+}
+.email,#email{
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 30px;
+}
+#name{
+    margin-left: 100px;
+}
+#email{
+    margin-left: 80px;
+}
+.City,#City{
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 30px;
+}
+#City{
+    margin-left: 120px;
+    height: 40px;
+}
+#submit{
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 210px;
+    height: 30px;
+}
+.imgpic{
+    height: 100px;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap')

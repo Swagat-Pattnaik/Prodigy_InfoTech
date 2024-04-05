@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div style="text-align: center;"><h1>Tic Tac Toe</h1><br><h1>WELCOME</h1></div>
+        <div class="game" style="border-collapse: collapse;">
+            <div class="row">
+                <div style="border-top: none; border-left: none; " onclick="box(this)" id="1" class="col"></div>
+                <div style="border-top: none;" onclick="box(this)" id="2" class="col"></div>
+                <div style="border-right: none; border-top: none;" onclick="box(this)" id="3" class="col"></div>
+            </div>
+            <div class="row">
+                <div style="border-left: none;" onclick="box(this)" id="4" class="col"></div>
+                <div onclick="box(this)" id="5" class="col"></div>
+                <div style="border-right: none;" onclick="box(this)" id="6" class="col"></div>
+            </div>
+            <div class="row">
+                <div style="border-bottom: none; border-left: none;" onclick="box(this)" id="7" class="col"></div>
+                <div style="border-bottom: none;" onclick="box(this)" id="8" class="col"></div>
+                <div style="border-bottom: none; border-right: none;" onclick="box(this)" id="9" class="col"></div>
+            </div>
+        </div>
+       <div style="align-items: center;"> <h1>Reasult Loading:</h1><h1 id="res"></h1><br><button onclick="btn()">RESET</button></div>
+    </div>
+    <script src="tic.js"></script>
+</body>
+</html>
